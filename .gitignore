@@ -1,0 +1,36 @@
+# Rust / Cargo
+/target/
+**/target/
+**/*.rs.bk
+*.pdb
+
+# Trunk / WebAssembly build artifacts
+/dist/
+**/dist/
+/web-shell/dist/
+*.wasm
+
+# Local databases & SQLite artifacts
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# macOS / OS metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+
+# IDE & Editor directories
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Environment & local secrets
+.env
+.env.*
+!.env.example
