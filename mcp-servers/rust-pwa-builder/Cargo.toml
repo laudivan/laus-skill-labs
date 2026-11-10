@@ -1,0 +1,13 @@
+[package]
+name = "rust-pwa-builder"
+description = "Model Context Protocol (MCP) server in Rust for building Wasm targets and auditing PWA offline readiness in ~ L@u's Skill Labs"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
+
+[dependencies]
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true
