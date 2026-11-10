@@ -1,0 +1,21 @@
+# Trunk Wasm & PWA Build Configuration — ~ L@u’s Skill Labs (~l@u / ~l4u)
+
+[build]
+target = "index.html"
+dist = "dist"
+public_url = "/"
+release = false
+
+[watch]
+watch = ["index.html", "manifest.json", "sw.js", "../crates/core", "../crates/ui-desktop", "../crates/ui-mobile"]
+ignore = ["dist"]
+
+[serve]
+addresses = ["127.0.0.1"]
+port = 8080
+open = false
+
+[serve.headers]
+"Cross-Origin-Opener-Policy" = "same-origin"
+"Cross-Origin-Embedder-Policy" = "require-corp"
+"Cache-Control" = "no-store"

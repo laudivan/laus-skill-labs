@@ -1,0 +1,21 @@
+{
+  "name": "~ L@u’s Skill Labs",
+  "short_name": "~ L@u Labs",
+  "id": "laus-skill-labs-pwa",
+  "description": "Local-First Rust/Wasm PWA & Ultralight Desktop Architectures by Laudivan Freire de Almeida (~ L@u / Uncle Lau)",
+  "start_url": "/index.html",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "categories": ["developer", "productivity", "utilities"],
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' rx='96' fill='%230f172a'/%3E%3Ctext x='50%25' y='55%25' dominant-baseline='middle' text-anchor='middle' fill='%2338bdf8' font-family='monospace' font-weight='bold' font-size='140'%3E~L%40u%3C/text%3E%3C/svg%3E",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
