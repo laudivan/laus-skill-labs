@@ -5,6 +5,7 @@ members = [
     "crates/ui-desktop",
     "crates/ui-mobile",
     "crates/launcher",
+    "mcp-servers/rust-pwa-builder",
 ]
 
 [workspace.package]
