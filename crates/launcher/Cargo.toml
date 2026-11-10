@@ -1,0 +1,20 @@
+[package]
+name = "laus-launcher"
+description = "Ultralight native desktop launcher embedding Web/Wasm PWA assets via include_dir! and wry/tao"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
+
+[features]
+default = []
+native-webview = ["dep:wry", "dep:tao"]
+
+[dependencies]
+laus-core.workspace = true
+include_dir.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+wry = { workspace = true, optional = true }
+tao = { workspace = true, optional = true }

@@ -1,0 +1,13 @@
+[package]
+name = "laus-ui-desktop"
+description = "High-density egui desktop workspace for ~ L@u's Skill Labs (large displays & mouse/keyboard precision)"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
+
+[dependencies]
+laus-core.workspace = true
+egui.workspace = true
+serde.workspace = true
