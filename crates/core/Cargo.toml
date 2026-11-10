@@ -1,0 +1,13 @@
+[package]
+name = "laus-core"
+description = "Pure Rust Local-First offline state engine, Outbox queue, and deterministic conflict resolution for ~ L@u's Skill Labs"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
+
+[dependencies]
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true
